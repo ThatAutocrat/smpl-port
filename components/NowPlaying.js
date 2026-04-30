@@ -31,8 +31,8 @@ const NowPlaying = () => {
           fontSize: '14px', color: 'white'
         }}>♪</div>
         <div style={{ overflow: 'hidden' }}>
-          <p style={{ fontSize: '11px', color: '#e2e8f0', margin: 0, fontWeight: 500, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Devashish's Portfolio</p>
-          <p style={{ fontSize: '10px', color: '#a0aec0', margin: 0, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>You're listening live</p>
+          <p style={{ fontSize: '11px', color: '#e2e8f0', margin: 0, fontWeight: 500, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Devashish&apos;s Portfolio</p>
+<p style={{ fontSize: '10px', color: '#a0aec0', margin: 0, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>You&apos;re listening live</p>
         </div>
       </div>
       <div style={{ marginTop: '8px', height: '2px', background: '#3a4460', borderRadius: '2px' }}>
