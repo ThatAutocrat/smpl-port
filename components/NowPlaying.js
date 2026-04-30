@@ -20,7 +20,7 @@ const NowPlaying = () => {
       border: '1px solid #3a4460',
       borderRadius: '12px',
       padding: '8px 12px',
-      width: '160px',
+      width: '200px',
     }}>
       <p style={{ fontSize: '9px', color: '#a0aec0', textTransform: 'uppercase', letterSpacing: '0.06em', margin: '0 0 6px' }}>now playing</p>
       <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
