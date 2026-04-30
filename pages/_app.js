@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion'
 import Chakra from '../components/chakra'
 import Payhip from '../components/payhip'
 import { Analytics } from '@vercel/analytics/react'
+import ThoughtBubble from '../components/ThoughtBubble'  // add this
 
 if (typeof window !== 'undefined') {
   window.history.scrollRestoration = 'manual'
@@ -14,6 +15,7 @@ function Website({ Component, pageProps, router }) {
     <Chakra cookies={pageProps.cookies}>
       <Fonts />
       <Payhip />
+      <ThoughtBubble />  {/* add this */}
       <Layout router={router}>
         <AnimatePresence
           mode="wait"
