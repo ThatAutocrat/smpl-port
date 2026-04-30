@@ -23,9 +23,12 @@ $PROJECT_ROOT
 └── public
 ```
 
-## License
 
-MIT License.
+
+## Site inspiration
 
 (https://www.craftz.dog/)
+
+## 3D model
+"Anime style building." (https://skfb.ly/oTpP8) by lizhou ding is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 
