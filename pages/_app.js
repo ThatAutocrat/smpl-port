@@ -5,7 +5,8 @@ import Chakra from '../components/chakra'
 import Payhip from '../components/payhip'
 import { Analytics } from '@vercel/analytics/react'
 import ThoughtBubble from '../components/ThoughtBubble'
-import VisitorGlobe from '../components/VisitorGlobe'// unique things i added
+import VisitorGlobe from '../components/VisitorGlobe'
+import CursorTrail from '../components/CursorTrail'// unique things i added
 
 if (typeof window !== 'undefined') {
   window.history.scrollRestoration = 'manual'
@@ -17,7 +18,8 @@ function Website({ Component, pageProps, router }) {
       <Fonts />
       <Payhip />
       <ThoughtBubble />
-      <VisitorGlobe />{/* add this */}
+      <VisitorGlobe />
+      <CursorTrail />{/* add this */}
       <Layout router={router}>
         <AnimatePresence
           mode="wait"
